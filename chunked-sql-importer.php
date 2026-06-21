@@ -8,7 +8,7 @@
  * Requires PHP:      7.4
  * Author:            Loreto G. Gabawa Jr.
  * License:           GPL-2.0-or-later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * License URI:       https://github.com/loretog/chunked-sql-importer
  * Text Domain:       chunked-sql-importer
  *
  * @package ChunkedSqlImporter

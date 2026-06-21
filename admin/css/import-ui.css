@@ -1,0 +1,119 @@
+.csi-wrap .csi-panel {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	margin: 20px 0;
+	padding: 16px 20px;
+}
+
+.csi-path {
+	display: inline-block;
+	margin: 8px 0 12px;
+	padding: 8px 10px;
+	background: #f6f7f7;
+}
+
+.csi-file-list table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.csi-file-list th,
+.csi-file-list td {
+	padding: 8px 10px;
+	border-bottom: 1px solid #dcdcde;
+	text-align: left;
+}
+
+.csi-progress-block {
+	margin: 16px 0;
+}
+
+.csi-progress-bar {
+	background: #dcdcde;
+	border-radius: 3px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.csi-progress-bar span {
+	display: block;
+	height: 100%;
+	background: #2271b1;
+	transition: width 0.2s ease;
+}
+
+.csi-status-text {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.csi-log-output {
+	background: #1d2327;
+	color: #f0f0f1;
+	min-height: 180px;
+	max-height: 360px;
+	overflow: auto;
+	padding: 12px;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.csi-log-line.error {
+	color: #ffabaf;
+}
+
+.csi-log-line.warn {
+	color: #f0c33c;
+}
+
+.csi-job-list table {
+	width: 100%;
+}
+
+.csi-job-list td,
+.csi-job-list th {
+	padding: 8px 10px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.csi-upload-block h3,
+.csi-server-path-block h3 {
+	margin: 0 0 8px;
+	font-size: 14px;
+}
+
+.csi-upload-controls {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin: 12px 0;
+}
+
+.csi-upload-progress {
+	margin-top: 12px;
+}
+
+.csi-upload-divider {
+	align-items: center;
+	display: flex;
+	margin: 24px 0;
+	text-align: center;
+}
+
+.csi-upload-divider::before,
+.csi-upload-divider::after {
+	background: #dcdcde;
+	content: "";
+	flex: 1;
+	height: 1px;
+}
+
+.csi-upload-divider span {
+	color: #646970;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0 12px;
+	text-transform: uppercase;
+}

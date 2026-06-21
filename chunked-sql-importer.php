@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name:       Chunked SQL Importer
- * Plugin URI:        https://github.com/example/chunked-sql-importer
+ * Plugin URI:        https://github.com/loretog/chunked-sql-importer
  * Description:       Import large SQL dump files in resumable chunks with logging and progress tracking.
  * Version:           1.1.0
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Loreto G. Gabawa Jr.
  * License:           GPL-2.0-or-later
- * License URI:       https://github.com/loretog/chunked-sql-importer
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       chunked-sql-importer
  *
  * @package ChunkedSqlImporter
